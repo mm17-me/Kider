@@ -37,6 +37,9 @@ class KiderController extends Controller
     public function facilities(){
         return view("Kidder.Facilities");
     }
+
+
+    
     public function teacher(){
         $teacher=Teacher::where("publish","1")->get();
         return view("Kidder.teachers",compact("teacher"));

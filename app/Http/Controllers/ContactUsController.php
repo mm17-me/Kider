@@ -13,6 +13,9 @@ class ContactUsController extends Controller
     /**
      * Display a listing of the resource.
      */
+
+
+     
     public function index()
     {
         $message=Contact_us::get();
