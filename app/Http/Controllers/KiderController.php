@@ -47,9 +47,13 @@ class KiderController extends Controller
     public function Testimonial()  {
         $data=Testimonal::get();
         return view("Kidder.Testimonial",compact("data"));
+
+        
     }
     public function Appointment()  {
         return view("Kidder.Appointment");
+
+
     }
 
 }
